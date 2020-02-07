@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "블로그에 수식 넣기"
+date:   2019-09-28 19:26:15 +0900
+categories: etc
+author: "CodeJin19"
+---
+# 블로그에 수식 삽입하기
+오토마타 정리를 위해 수식을 쓰려고 보니 수식이 입력이 안 되더라...
+그래서 하려는 공부는 못 하고 엉뚱한 "깃허브 블로그에 수식 넣기"를 검색하느라 약 이틀가량을 날렸다 ㅋㅋ
+
+1. `_layouts/post.html`파일을 열어서
+
+```html
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+  <header class="post-header">
+```
+
+article 태그 밑에 아래의 코드를 붙였다.
+
+```html
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+```
+
+```html
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <script type="text/javascript" async
+          src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  
+  <header class="post-header">
+```
+
+그랬더니 포스트에서 LaTex문법으로 수식을 입력하니 잘 나온다.
+
+
+참 쉽죠?

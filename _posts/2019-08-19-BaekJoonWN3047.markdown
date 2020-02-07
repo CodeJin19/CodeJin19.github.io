@@ -1,0 +1,164 @@
+---
+layout: post
+title:  "백준 오답노트 3047 ABC"
+date:   2019-08-19 00:47:15 +0900
+categories: algorithm
+author: "CodeJin19"
+---
+오늘의 문제는 "3047번 ABC".
+
+임의의 서로 다른 세 수를 주고, 각 테스트케이스에서 요구하는 순서대로 출력하면 된다.
+
+{% highlight ruby %}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int a, b, c;
+	int arr[3];
+	char crr[5];
+
+	cin >> a >> b >> c;
+	cin >> crr;
+
+	if (a < b)  //세 수의 크기 비교
+	{
+		if (b < c)
+		{
+			arr[0] = a;
+			arr[1] = b;
+			arr[2] = c;
+		}
+		else
+		{
+			arr[0] = a;
+			arr[1] = c;
+			arr[2] = b;
+		}
+	}
+	else
+	{
+		if (a < c)
+		{
+			arr[0] = b;
+			arr[1] = a;
+			arr[2] = c;
+		}
+		else
+		{
+			arr[0] = b;
+			arr[1] = c;
+			arr[2] = a;
+		}
+	}
+	
+	for (int i = 0; i < 3; i++)  //주어진 순서대로 출력
+	{
+		switch (crr[i])
+		{
+		case 'A':
+			cout << arr[0] << "\n";
+			break;
+		case 'B':
+			cout << arr[1] << "\n";
+			break;
+		case 'C':
+			cout << arr[2] << "\n";
+			break;
+		}
+	}
+
+	return 0;
+}
+{% endhighlight %}
+
+이번 문제도 너무 쉽다고 생각한 나머지 생각하지 않고 손으로 먼저 코딩을 하기 시작했다.
+
+그래서일까 이 코드에는 틀린 부분이 두 군데가 있는데
+
+첫 번째는 출력 형식을 맞추지 않았다는 것이다.
+
+출력 예시를 보면 세 수가 한 줄에 적어야 하는데, 각 숫자 출력 후 개행을 했다.
+
+두 번째는 세 수의 크기 비교는 위의 코드보다 좀 더 복잡하다.
+
+예를 들어 맨 윗부분을 보면
+
+a - 4
+
+b - 2
+
+c - 6
+
+인 경우, b가 a보다 작지만, 이 코드에서는 a와 b를 비교하지 않고 무조건 a가 더 작다고 판단하고 있다.
+
+이 두 가지를 수정하면 아래와 같이 정답이 된다.
+
+{% highlight ruby %}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int a, b, c;
+	int arr[3];
+	char crr[5];
+
+	cin >> a >> b >> c;
+	cin >> crr;
+
+	if (a < b)
+	{
+		if (b < c)
+		{
+			arr[0] = a;
+			arr[1] = b;
+			arr[2] = c;
+		}
+		else
+		{
+			arr[0] = a;
+			arr[1] = c;
+			arr[2] = b;
+		}
+	}
+	else
+	{
+		if (a < c)
+		{
+			arr[0] = b;
+			arr[1] = a;
+			arr[2] = c;
+		}
+		else
+		{
+			arr[0] = b;
+			arr[1] = c;
+			arr[2] = a;
+		}
+	}
+	
+	for (int i = 0; i < 3; i++)
+	{
+		switch (crr[i])
+		{
+		case 'A':
+			cout << arr[0] << " ";
+			break;
+		case 'B':
+			cout << arr[1] << " ";
+			break;
+		case 'C':
+			cout << arr[2] << " ";
+			break;
+		}
+	}
+    
+    cout << "\n";
+
+	return 0;
+}
+{% endhighlight %}

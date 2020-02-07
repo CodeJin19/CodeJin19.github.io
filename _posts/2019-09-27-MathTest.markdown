@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "수식 테스트"
+date:   2019-09-27 16:11:17 +0900
+categories: etc
+author: "CodeJin19"
+---
+수식이 잘 입력되는지 시험삼아 쓰는 블로그 글
+
+$$
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+$$

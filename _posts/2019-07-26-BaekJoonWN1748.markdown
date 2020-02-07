@@ -1,0 +1,131 @@
+---
+layout: post
+title:  "백준 오답노트 1748 수 이어 쓰기 1"
+date:   2019-07-26 20:44:31 +0900
+categories: algorithm
+author: "CodeJin19"
+---
+오늘의 문제는 "1748번 수 이어 쓰기 1".
+
+1부터 n까지의 수를 이어서 써서 하나의 숫자를 만들때, 이 수는 몇 자릿수인지 구하는 문제이다.
+
+예를 들어 n이 13이면
+
+12345678910111213
+
+인 하나의 수가 생기고 이 수는 17자리수이다.
+
+두 자리 수들과 세 자리 수들을 살펴 규칙을 파악해보자.
+
+두 자리 수는 10 ~ 99까지 모두 90개가 있고, 각각 두 자리 숫자이므로
+
+두 자리 수들을 모두 이어쓸 경우
+
+2 * 90 = 180
+
+180자리 수가 생성된다.
+
+세 자리 수는 100 ~ 999까지 모두 900개의 수가 있고, 각각 세 자리 수이므로
+
+세 자리 수들을 모두 이어쓸 경우
+
+3 * 900 = 2700
+
+2700자리 수가 생성된다.
+
+즉 x자리 수들을 이어 쓰면
+
+x * 9 * 10^(x - 1) 자리의 수가 된다.
+
+{% highlight ruby %}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int n;
+	int sum = 0;
+	int limit = 10;
+	int x = 1;
+
+	cin >> n;
+
+	if (n < 10) //n이 한 자리 수이면 그 수가 곧 자릿수이다.
+	{
+		cout << n << endl;
+	}
+	else // n이 10 이상인 경우...
+	{
+		while (limit < n)
+		{
+			sum += (9 * x * limit / 10);
+			limit *= 10;
+			x++;
+		}
+
+		limit /= 10;
+
+		sum += ((n - limit + 1) * x);
+
+		cout << sum << endl;
+	}
+	return 0;
+}
+{% endhighlight %}
+
+이 경우 n이 100이면
+
+1 ~ 9 -> 9자리
+
+10 ~ 99 -> 180자리
+
+100 -> 3자리
+
+이므로 192가 나와야 한다.
+
+하지만 n = 100의 경우, limit가 10인 경우에만 while문을 돌아서 오차가 생긴다.
+
+따라서 while문의 조건문을 limit <= n으로 고쳐주면
+
+{% highlight ruby %}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int n;
+	int sum = 0;
+	int limit = 10;
+	int x = 1;
+
+	cin >> n;
+
+	if (n < 10)
+	{
+		cout << n << endl;
+	}
+	else
+	{
+		while (limit <= n)
+		{
+			limit /= 10;
+			sum += (9 * x * limit);
+			limit *= 100;
+			x++;
+		}
+        
+		limit /= 10;
+		sum += ((n - limit + 1) * x);
+
+		cout << sum << endl;
+	}
+
+	return 0;
+}
+{% endhighlight %}
+
+while문이 limit = 100인 경우도 돌아서 오차가 생기지 않는다.
+
+이 문제는 간단한 수학만 적용하면 풀 수 있는 문제지만, 역시 while문의 조건문에서 등호 하나를 빼먹는 바람에 틀렸다.
