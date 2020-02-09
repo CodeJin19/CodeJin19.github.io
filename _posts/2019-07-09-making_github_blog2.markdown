@@ -2,7 +2,7 @@
 layout: post
 title:  "깃허브 블로그 만들기2"
 date:   2019-07-08 23:02:38 +0900
-categories: etc
+categories: blog
 author: "CodeJin19"
 ---
 지난 포스트에서는 지킬을 활용해 블로그를 로컬에 만드는 방법을 살펴보았다.

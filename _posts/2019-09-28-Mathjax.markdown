@@ -2,7 +2,7 @@
 layout: post
 title:  "블로그에 수식 넣기"
 date:   2019-09-28 19:26:15 +0900
-categories: etc
+categories: blog
 author: "CodeJin19"
 ---
 # 블로그에 수식 삽입하기

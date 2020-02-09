@@ -2,7 +2,7 @@
 layout: post
 title:  "깃허브 블로그 만들기3"
 date:   2019-07-11 00:21:33 +0900
-categories: etc
+categories: blog
 author: "CodeJin19"
 ---
 이번에는 로컬로 만든 블로그를 github에 올려서 온라인으로 띄워보자.

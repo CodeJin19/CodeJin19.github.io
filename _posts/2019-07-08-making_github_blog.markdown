@@ -2,7 +2,7 @@
 layout: post
 title:  "깃허브 블로그 만들기1"
 date:   2019-07-08 19:45:17 +0900
-categories: etc
+categories: blog
 author: "CodeJin19"
 ---
 깃허브에서 바로 블로그를 만들 수 있는지는 잘 모르겠지만, 지킬을 활용하면 더욱 쉽게 깃허브 블로그를 만들 수 있다.
