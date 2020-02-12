@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: etc
+title: Etc
 permalink: /etc/
-tagline: "all about programming"
 category: "etc"
+tagline: "all about programming"
 ---

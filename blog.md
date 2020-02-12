@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: blog
+title: Blog
 permalink: /blog/
-tagline: "all about bloging"
 category: "blog"
+tagline: "all about bloging"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: kotlin
+title: Kotlin
 permalink: /kotlin/
-tagline: "all about kotlin"
 category: "kotlin"
+tagline: "all about kotlin"
 ---
