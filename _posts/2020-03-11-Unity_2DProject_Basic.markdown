@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "유니티 2D 프로젝트 기초"
-date: 2020-03-11 15:00:07 +0900
+date: 2020-03-11 15:34:11 +0900
 categories: unity
 author: "CodeJin19"
 ---
