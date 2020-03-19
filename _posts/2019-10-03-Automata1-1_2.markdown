@@ -2,7 +2,7 @@
 layout: post
 title:  "오토마타 1장1절 - 2"
 date:   2019-10-3 17:01:25 +0900
-categories: etc
+categories: school
 author: "CodeJin19"
 ---
 집합의 남은 부분을 다뤄보고 함수와 관계 (Relation)에 대해 정리한다.
