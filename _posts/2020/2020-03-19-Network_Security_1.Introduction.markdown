@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "네트워크보안 1.시작"
+title: "네트워크보안 1.개요1"
 date: 2020-03-19 21:14:11 +0900
 categories: school
 author: "CodeJin19"
