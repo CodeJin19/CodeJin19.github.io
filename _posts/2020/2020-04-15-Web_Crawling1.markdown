@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "파이썬으로 웹 크롤링하기1"
-date: 2020-04-15 15:23:39 +0900
+date: 2020-04-15 16:54:28 +0900
 categories: school
 author: "CodeJin19"
 ---
