@@ -19,7 +19,7 @@ Source에서 Data로 이동하는 명령어는 movq로, 다음과 같이 사용�
     - 예) $0x400, $-533
 
     - 앞에 $를 붙여준다
-
+    
   - 레지스터
 
     - 예) %rax, %r13
@@ -62,6 +62,8 @@ Source에서 Data로 이동하는 명령어는 movq로, 다음과 같이 사용�
 
   - 예) movq (%rcs), %rax
 
+<br>
+
 - Displacement &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D(R) Mem[Reg[R] + D]
 
   - 레지스터 R이 특정 메모리 구역의 시작위치를 가리키는 경우
@@ -88,6 +90,8 @@ Source에서 Data로 이동하는 명령어는 movq로, 다음과 같이 사용�
 
     - S : 규모 : 1, 2, 4, 8 바이트 중 하나
 
+<br>
+
 - Special Cases
 
   - (Rb, Ri) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Mem[Reg[Rb] + Reg[Ri]]
@@ -95,5 +99,3 @@ Source에서 Data로 이동하는 명령어는 movq로, 다음과 같이 사용�
   - D (Rb, Ri) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Mem[Reg[Rb] + Reg[Ri] + D]
 
   - (Rb, Ri, S) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Mem[Reg[Rb] + S * Reg[Ri]]
-
-<br>
