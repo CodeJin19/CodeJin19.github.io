@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "네트워크보안 2.암호화3"
-date: 2020-05-13 20:45:36 +0900
+date: 2020-05-14 16:01:35 +0900
 categories: school
 author: "CodeJin19"
 ---
@@ -85,36 +85,72 @@ $$\oplus$$연산 논리표
 
 <br>
 
-하지만 One-Time Pad는 제대로 사용하기 어렵다. One-Time Pad를 제대로 사용하려면, 매 통신마다 random한 Key값을 생성하여 한 번 쓰고 버려야 한다. 왜냐하면 Key를 재사용하면, 
-
-## Double Transposition
-
-저번 포스트에서 봤던 Substitution은 문자를 치환하여 암호화하는 알고리즘이었다. Transposition은 문자의 위치를 변환하는 암호화 알고리즘이다. 예를 들어 "attack at dawn"이라는 평문이 있다고 해보자. 이 평문을 아래와 같이 표에 배치하는 것이다. (x는 공백이다.)
+One-Time Pad는 Secure함이 증명됐음에도 불구하고 잘 사용하지 않는다. 왜냐하면 One-Time Pad를 제대로 사용하기 위해서는, 매 통신마다 random한 Key값을 생성하여 한 번 쓰고 버려야 하기 때문이다. 키를 재사용할 경우의 문제점을 다음 상황을 통해 알아보자.
 
 <br>
 
-||Col 1|Col 2|Col 3|
-||:---:|---|---|
-|Row 1|a|t|t|
-|Row 2|a|c|k|
-|Row 3|x|a|t|
-|Row 4|x|d|a|
-|Row 5|w|n|x|
+A가 B에게 $$P_1$$을 키 K로 암호화한 $$C_1$$ ($$C_1 = P_1 \oplus K$$)과 $$P_2$$를 같은 키 K로 암호화한 $$C_2$$ ($$C_2 = p_2 \oplus K$$)를 보낸다. 이 때, $$C_1$$과 $$C_2$$에 공격자 T가 접근했다면, 공격자 T는 $$C_1$$과 $$C_2$$를 갖고 다음 작업을 할 수 있다.\
 
 <br>
 
-그리고 위의 표의 행과 열의 순서를 뒤섞는다.
+$$
+\begin{align*}
+C_1 \oplus C_2 = \left( P_1 \oplus K \right) \oplus \left( P_2 \oplus K \right)
+\end{align*}
+$$
+
+$$
+\begin{align*}
+C_1 \oplus C_2 = \left( P_1 \oplus P_2 \right) \oplus \left( K \oplus K \right)
+\end{align*}
+$$
 
 <br>
 
-||Col 1|Col 3|Col 2|
-||:---:|:---:|:---:|
-|Row 3|x|t|a|
-|Row 5|w|x|n|
-|Row 1|a|t|t|
-|Row 4|x|a|d|
-|Row 2|a|k|c|
+같은 값으로 xor연산을 두 번 하면 상쇄되므로,
 
 <br>
 
-Transposition을 거친 암호문은 "xtawxnattxadakc"이고, 이 때 키는 (3, 5, 1, 4, 2)와 (1, 3, 2)이다.
+$$
+\begin{align*}
+C_1 \oplus C_2 = \left( P_1 \oplus P_2 \right)
+\end{align*}
+$$
+
+<br>
+
+공격자 T는 $$P_1$$과 $$P_2$$의 xor 연산의 결과를 얻게된다. 공격자는 Plain Text를 바로 알 수는 없지만, $$P_1$$이나 $$P_2$$에 중 하나라도 안다면 나머지 Plain Text들은 손쉽게 볼 수 있다. 결국 One-Time Pad는 키를 재사용할 수 없다는 큰 단점이 있다.
+
+<br>
+
+One-Time Pad는 통신하는 양측이 같은 키를 타인에게 누출되지 않고 안전하게 공유해야하며, 매 통신마다 새로운 키를 공유해야한다. 그런데 문제는, 키의 크기가 통신하는 데이터와 같은 크기여야 한다는 것이다. 결국, 통신하는 데이터와 같은 크기의 키를 매번 안전하게 공유하는 과정이 필요한데, 이 때 키가 아닌 데이터를 안전하게 공유하면 된다는 문제가 생긴다. 이런 모순 때문에 One-Time Pad는 잘 사용하지 않는다.
+
+<br>
+
+## Codebook Cipher
+
+One-Time Pad나 Substitution은 알파벳을 알파벳으로 1대1 치환하는 방식이고, Trnasition은 알파벳의 위치를 섞는 방식이라면, Codebook Cipher는 알파벳이 아닌 단어를 숫자에 1대1 대응 시키는 방식이다. 예를 들어, "안녕하세요, 여러분"에서 "안녕하세요"를 10, "여러분"을 27이라 한다면, 암호문은 "10, 27"이다. 이 방법은 통신하는 쌍방이 같은 사전(Codebook, 숫자와 단어가 정리되어 있는 책)을 공유하고 있어야 한다.
+
+## Summary
+
+ - Symmetric Key (대칭키)
+
+   - 암호화, 복호화에 사용하는 키가 같은 암호화 방식
+
+   - Stream Cipher
+
+     - AES
+
+   - Block Cipher
+
+     - One-Time Pad와 비슷
+
+     - random에 가까운 Key Stream을 만들어 활용
+
+     - Key Stream을 생성하는 알고리즘을 공유함으로써 One-Time Pad의 단점을 극복했다.
+
+ - Asymmetric Crypto (비대칭키)
+
+   - Public Key와 Private Key, 두 가지 키를 사용
+
+   - Private Key로 암호화하는 것을 서명한다고 한다
