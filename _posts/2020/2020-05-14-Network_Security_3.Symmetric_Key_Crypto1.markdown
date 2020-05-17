@@ -40,6 +40,6 @@ RC4는 일련의 무작위 숫자를 생성하는 알고리즘이다. RC4는 한
 
 <br>
 
-### Block Cipher
+## Block Cipher
 
 RC4가 반복하여 keystream을 생성했다면, Block Cipher는 암호화를 반복하여 cipher block을 생성한다. Block cipher는 n번의 라운드를 반복하여 암호화를 진행한다. 첫 라운드에서는 plaintext와 key를 입력받아 암호화한다. 이후 두 번째 라운드부터 매 라운드 key와 이전 라운드의 출력값을 입력받아 암호화한다. 
