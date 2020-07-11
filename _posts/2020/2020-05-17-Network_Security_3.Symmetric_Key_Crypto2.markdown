@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "네트워크보안 3.대칭키 암호화2"
-date: 2020-05-17 12:47:17 +0900
+date: 2020-05-17 16:39:15 +0900
 categories: school
 author: "CodeJin19"
 ---
@@ -105,6 +105,6 @@ $$
 
 <br>
 
-### Why not $$C = E(E(P, K_1), K_2)$$
+### Why not $$C = E(E(P, K_1), K_2)$$?
 
 Double DES가 아닌 triple DES를 사용하는 이유는 known plaintext attack 때문이다. 글로만 설명하면 복잡해지기 때문에 결론만 말하자면, known plaintext attack을 통해 double DES의 연산 횟수는 $$2^{56} \times 2^{56} = 2^{112}$$이 아니라, $$2^{56} + 2^{56} = 2^{57}$$이고, 같은 공격이라도 triple DES의 경우에는 $$2^{112}$$이기 때문에 double DES는 사용하지 않는다.
