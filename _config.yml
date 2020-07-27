@@ -10,7 +10,7 @@ title: CodeJin19
 email: codejin19@gmail.com
 description: 안녕하세요!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://codejin19.github.cio # the base hostname & protocol for your site
+url: https://codejin19.github.io # the base hostname & protocol for your site
 twitter_username: hemang_kumar
 github_username:  hemangsk
 paginate: 5
