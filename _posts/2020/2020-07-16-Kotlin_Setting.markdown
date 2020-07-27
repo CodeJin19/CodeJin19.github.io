@@ -1,7 +1,11 @@
 ---
 layout: post
 title: "안드로이드 스튜디오 환경 에러"
-date: 2020-07-16 18:28:00  +0900
+date: 2020-07-16 18:28:00 +0900
+lastmod: 2020-07-27 18:01:16 +0900
+sitemap:
+changefreq: weekly
+priority: 1.0
 categories: kotlin
 author: "CodeJin19"
 ---
