@@ -1,0 +1,70 @@
+---
+title: "백준 오답노트 11729 하노이 탑 이동 순서"
+categories:
+  - algorithm
+tags:
+  - algorithm
+  - ps
+  - baekjoon
+date: 2019-07-18 16:04:15 +0900
+last_modified_at: 2019-07-18 16:04:15 +0900
+---
+오늘의 문제는 "11729번 하노이 탑 이동순서".
+
+유명한 문제인 하노이 탑의 이동 순서를 출력하는 문제인데, 이번에도 역시 단순한 이유로 틀렸다.
+
+장대에 쌓인 원판의 개수가 입력으로 주어지는데,
+
+이 때, 정수 n의 범위는 1이상 20이하이다.
+
+출력으로는 원판의 총 이동 횟수와 이동 순서를 출력하면 된다.
+
+{% highlight ruby %}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int num;
+
+	cin >> num;
+
+	cout << pow(2, num) - 1 << "\n";    //하노이 탑의 총 이동 횟수는 2^n - 1이다
+	hanoi(num, 1, 3, 2);                //hanoi함수는 생략했다
+
+	return 0;
+}
+{% endhighlight %}
+
+아무리 봐도 틀린 부분이 없다고 생각하던 순간, 입력으로 20을 넣어보니
+
+1.04858e+06
+
+라며 지수형식으로 출력이 됐다.
+
+따라서 정수를 고정출력하게끔 고쳤다.
+
+{% highlight ruby %}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int num;
+
+	cin >> num;
+
+  cout << fixed;
+  cout.precision(0);
+	cout << pow(2, num) - 1 << "\n";    //하노이 탑의 총 이동 횟수는 2^n - 1이다
+	hanoi(num, 1, 3, 2);                //hanoi함수는 생략했다
+
+	return 0;
+}
+{% endhighlight %}
+
+입력의 최댓값이 int형 범위라는 것은 확인했지만, 출력이 잘 되는지를 확인하지 않아서 틀렸다.
+
+앞으로는 숫자를 출력하는 경우 지수표현으로 넘어가지 않는지 유념해야겠다.

@@ -1,0 +1,107 @@
+---
+title: "백준 오답노트 1812 사탕"
+categories:
+  - algorithm
+tags:
+  - algorithm
+  - ps
+  - baekjoon
+date: 2019-08-04 16:36:34 +0900
+last_modified_at: 2019-08-04 16:36:34 +0900
+---
+오늘의 문제는 "1812번 사탕".
+
+N명 학생들이 각자 사탕을 갖고 있고, N개의 줄에 이웃한 두 학생의 사탕의 합을 입력으로 받는다.
+
+입력 받은 사탕의 수를 모두 합하면 전체 학생의 사탕 수의 두 배를 알 수 있다.
+
+이 합을 2로 나누면 전체 사탕의 수가 되고
+
+전체 사탕의 수를 적절히 활용하면 각 학생의 사탕수를 찾을 수 있다.
+
+{% highlight ruby %}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int n;
+	int sum = 0;
+	int arr[1010];
+
+	cin >> n;
+
+	for (int i = 0; i < n; i++)
+	{
+		cin >> arr[i];
+
+		sum += arr[i];
+	}
+
+	sum /= 2;
+
+	for (int i = 1; i < n - 1; i++)
+	{
+		sum -= arr[i];
+	}
+
+	cout << sum << "\n";
+
+	for (int i = 0; i < n - 1; i++)
+	{
+		sum = arr[i] - sum;
+		cout << sum << "\n";
+	}
+
+	return 0;
+}
+{% endhighlight %}
+
+이 문제도 역시 예시는 맞있는데 전체 테스트 케이스는 틀렸다고 한다.
+
+자세히 보니 전체 합인 sum을 활용해서 각 학생의 사탕 수를 구할 때,
+
+배열에 i를 하나씩 올린게 화근이었다.
+
+{% highlight ruby %}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int n;
+	int sum = 0;
+	int arr[1010];
+
+	cin >> n;
+
+	for (int i = 0; i < n; i++)
+	{
+		cin >> arr[i];
+
+		sum += arr[i];
+	}
+
+	sum /= 2;
+
+	for (int i = 1; i < n - 1;)
+	{
+		sum -= arr[i];
+		i += 2;
+	}
+
+	cout << sum << "\n";
+
+	for (int i = 0; i < n - 1; i++)
+	{
+		sum = arr[i] - sum;
+		cout << sum << "\n";
+	}
+
+	cin >> n;
+
+	return 0;
+}
+{% endhighlight %}
