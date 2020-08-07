@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://codejin19.github.io/sitemap.xml
