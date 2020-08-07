@@ -24,7 +24,7 @@ title: CodeJin19's Blog
 email: codejin19@gmail.com
 description: "codejin의 블로그"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://codejin19.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates
