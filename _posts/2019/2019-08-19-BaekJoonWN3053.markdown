@@ -1,0 +1,116 @@
+---
+title: "백준 오답노트 3053 택시 기하학"
+categories:
+  - algorithm
+tags:
+  - algorithm
+  - ps
+  - baekjoon
+date: 2019-08-19 00:39:04 +0900
+last_modified_at: 2019-08-19 00:39:04 +0900
+---
+오늘의 문제는 "3053번 택시 기하학".
+
+원의 반지름 R이 주어지면, 이 원의 넓이와, 이 원에 내접하는 정사각형의 넓이 두 개를 계산하면 된다.
+
+처음에는 별 생각없이 풀었었다.
+
+```C++
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+	int r;
+	double area;
+
+	cin >> r;
+
+	area = r * r;
+	area *= 3.141592654;
+
+	cout << fixed;
+	cout.precision(5);
+	cout << area << "\n";
+
+	area = 2 * r;
+	area *= r;
+
+	cout << area << "\n";
+
+	return 0;
+}
+```
+
+너무 간단해서 당연히 맞을 줄 알았는데 틀렸다.
+
+너무 간단해서 왜 틀렸는지 감도 안 잡히던 와중에 문득 든 생각이 파이값을 좀 더 정확하게 써야 할 것 같았다.
+
+이 두 가지를 수정하면
+
+```C++
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+	int r;
+	double area;
+
+	cin >> r;
+
+	area = r * r;
+	area *= 3.14159265358979323846;
+
+	cout << fixed;
+	cout.precision(8);
+	cout << area << "\n";
+
+	area = 2 * r;
+	area *= r;
+
+	cout << area << "\n";
+
+	return 0;
+}
+```
+
+정답이었다.
+
+정답과의 오차를 0.0001까지 허용해준다고 하더라도 이보다 훨씬 더 작은 단위까지 신경써야했던 것이다.
+
+이렇게 단순하게 풀지 않고, 좀 더 멋있게 풀려면 아래와 같이 하면 된다.
+
+```C++
+#include <iostream>
+#define _USE_MATH_DEFINES
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+	int r;
+	double area;
+
+	cin >> r;
+
+	area = r * r;
+	area *= M_PI;
+
+	cout << fixed;
+	cout.precision(5);
+	cout << area << "\n";
+
+	area = 2 * r;
+	area *= r;
+
+	cout << area << "\n";
+
+	return 0;
+}
+```

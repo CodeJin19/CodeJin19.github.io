@@ -1,0 +1,51 @@
+---
+title: "오토마타 1장"
+categories:
+  - school
+tags:
+  - school
+  - automata
+date: 2019-09-20 20:05:17 +0900
+last_modified_at: 2019-09-20 20:05:17 +0900
+---
+이번 학기에 듣는 전공 내용을 블로그에 정리해보고자 한다.
+
+우선 그 첫 글은 오토마타 1장.
+
+책은 Introduction to Formal Languages and Automata, 6th ed. Peter Linz, Jones and Barlett이다.
+
+1장 앞부분은, 대부분의 책이 으레 그렇듯, 왜 오토마타를 배워야 하는지에 대해 설명해놨다.
+
+왜 이론이 중요하고, 공부해야 하는지 3가지 이유를 적었는데 넘기겠다.
+
+이 책에서는 Formal Language (형식언어)와 Automata (오토마타)에 대해 다음과 같이 정의했다.
+
+<blockquote>
+이 책에서는 모든 컴퓨터와 프로그램을 추상화한 오토마톤이라는 컴퓨터 모델을 공부할 것이다. (복수형 : 오토마타)
+오토마톤은 입력값을 읽을 수 있고, 출력값을 출력할 수 있으며, 저장공간이 있어 저장할 수도 있다. 또한, 입력값을 이용해 연산과 판단을 할 수 있다.
+</blockquote>
+
+<blockquote>
+형식언어는 프로그래밍 언어를 추상화한 언어이다.
+형식언어는 Symbol의 집합과 이 Symbol로 Sentence라는 Entity를 만드는 규칙으로 이루어져 있다.
+형식언어는 Formation규칙으로 생성된 모든 Sentence들의 집합이다.
+</blockquote>
+
+또한 1장에서 배울 내용들도 간단히 정리돼있다.
+
+<blockquote>
+1.1절에서는 앞으로 배울 내용들의 배경지식이 되는 수학을 간단히 알아볼 것이다.
+ 가장 기본이 되는 집합이론과, 함수 (Function), 관계 (Relation), 전문 용어 (Terminology)와 트리 (Tree), 그래프 (Graph) 등을 공부할 것이다.
+ 그리고 무엇보다 가장 중요한 건 증명인데, 직접 증명 (Deduction), 귀납법 (Induction), 귀류법 (Proof by Contradiction)도 알아 볼 것이다.
+</blockquote>
+
+<blockquote>
+1.2절에서는 언어 (Languages), 문법 (Grammars) 그리고 오토마타 (Automata)를 볼 것이다.
+그리고 이 개념들은 다양한 형태로 뒤에서 계속 등장할 것이다.
+</blockquote>
+
+<blockquote>
+1.3절에서는 1.1절부터 1.2절까지 배운 개념들이 컴퓨터 과학에서 널리 쓰인다는 것을 보여주는 간단한 프로그램을 볼 것이다.
+</blockquote>
+
+다음 글에서 본격적인 1.1절을 정리하겠다.
