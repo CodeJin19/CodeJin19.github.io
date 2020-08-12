@@ -5,8 +5,9 @@ categories:
 tags:
   - blog
   - github_blog
+  - jekyll
 date: 2019-07-08 23:02:38 +0900
-last_modified_at: 2019-07-08 23:02:38 +0900
+last_modified_at: 2020-08-12 15:36:06 +0900
 ---
 지난 포스트에서는 지킬을 활용해 블로그를 로컬에 만드는 방법을 살펴보았다.
 

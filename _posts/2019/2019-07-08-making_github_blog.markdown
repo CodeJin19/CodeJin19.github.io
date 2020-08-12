@@ -5,8 +5,9 @@ categories:
 tags:
   - blog
   - github_blog
+  - jekyll
 date: 2019-07-08 19:45:17 +0900
-last_modified_at: 2019-07-08 19:45:17 +0900
+last_modified_at: 2020-08-12 15:35:50 +0900
 ---
 깃허브에서 바로 블로그를 만들 수 있는지는 잘 모르겠지만, 지킬을 활용하면 더욱 쉽게 깃허브 블로그를 만들 수 있다.
 
