@@ -1,5 +1,5 @@
 ---
-title: "깃허브 블로그 만들기2"
+title: "깃헙 블로그 만들기2"
 categories:
   - blog
 tags:
