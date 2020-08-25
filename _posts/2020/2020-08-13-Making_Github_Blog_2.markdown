@@ -7,7 +7,7 @@ tags:
   - github_blog
   - jekyll
 date: 2020-08-13 17:15:37 +0900
-last_modified_at: 2020-08-13 17:15:37 +0900
+last_modified_at: 2020-08-25 14:38:05 +0900
 ---
 
 차근차근 깃헙 블로그를 만들어보자.
