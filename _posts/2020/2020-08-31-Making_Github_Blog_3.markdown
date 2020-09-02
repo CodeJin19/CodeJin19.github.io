@@ -8,8 +8,12 @@ tags:
   - jekyll
   - jekyll_theme
 date: 2020-08-31 16:41:10 +0900
-last_modified_at: 2020-08-31 16:41:10 +0900
+last_modified_at: 2020-09-02 15:22:12 +0900
 ---
+
+# 깃헙 블로그에 테마 적용하기
+
+## 테마 다운로드
 
 지난 포스트에서는 명령프롬프트와 지킬을 통해 블로그를 만들었다.
 
@@ -36,6 +40,8 @@ last_modified_at: 2020-08-31 16:41:10 +0900
 링크에 들어가서 위 이미지와 같이 `code` 버튼을 누르고 `Download ZIP`을 눌러 다운받아 압축을 풀자.
 
 <br>
+
+## README 따라서 테마 설치하기
 
 어떤 프로그램을 설치하려면 설치 안내를 따라하듯, 테마를 적용하려면 레포지토리의 README.md에 있는 [Installation](https://github.com/mmistakes/so-simple-theme#Installation) 부분을 따라하면 된다.
 
@@ -104,6 +110,8 @@ bundle install
 그럼 이제 네비게이션 바를 띄워보자.
 
 <br>
+
+## 네비게이션 바 띄우기
 
 README를 더 읽어보니, [Structure](https://github.com/mmistakes/so-simple-theme#Structure)부분에서 so simple 테마를 위한 디렉토리 구조가 myblog 디렉토리 구조와 다르다는 것을 알 수 있었고,
 
