@@ -5,8 +5,6 @@ categories:
 tags:
   - machine_learning
   - neural_network
-  - artificial_neural_network
-  - ann
   - TIL
 date: 2020-09-07 21:25:43 +0900
 last_modified_at: 2020-09-07 21:25:43 +0900
