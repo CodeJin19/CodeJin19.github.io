@@ -52,7 +52,6 @@ liquid:
 
 # Build settings
 permalink: /:categories/:title/
-mrkdown: kramdown
 feed:
   path: atom.xml
 
