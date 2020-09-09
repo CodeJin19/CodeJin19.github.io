@@ -10,7 +10,7 @@ tags:
   - perceptron
   - TIL
 date: 2020-09-08 17:23:57 +0900
-last_modified_at: 2020-09-08 17:23:57 +0900
+last_modified_at: 2020-09-09 19:57:39 +0900
 ---
 
 # 머신러닝 기초
@@ -21,7 +21,7 @@ last_modified_at: 2020-09-08 17:23:57 +0900
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_1.google_search_console.jpg"></center>
+<center><img src="../../images/2020-09-08-MachineLearning_3.Basic2_1.perceptron.jpg"></center>
 
 <br>
 
@@ -54,7 +54,7 @@ and 게이트의 진리표는 아래와 같이 $$x_1$$과 $$x_2$$가 모두 1인
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_1.google_search_console.jpg"></center>
+<center><img src="../../images/2020-09-08-MachineLearning_3.Basic2_2.truth_table.jpg"></center>
 
 <br>
 
