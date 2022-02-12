@@ -5,8 +5,8 @@ categories:
 tags:
   - retrospective
   - blog
-date: 2022-02-12 13:38:12 +0900
-last_modified_at: 2021-02-04 13:38:12 +0900
+date: 2022-02-12 16:43:35 +0900
+last_modified_at: 2022-02-12 16:43:35 +0900
 ---
 
 # 한 달 느린 회고록 2021
