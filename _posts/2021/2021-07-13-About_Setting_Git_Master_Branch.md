@@ -29,7 +29,7 @@ main을 기본 브랜치로 사용해도 큰 차이는 없지만, `git push orig
 
 <br>
 
-<center><img src="../../images/2021-07-13-About_Setting_Git_Master_Branch_2.tmp_repository.jpg
+<center><img src="../../images/2021-07-13-About_Setting_Git_Master_Branch_2.tmp_repository.JPG
 "></center>
 
 <br>
@@ -38,7 +38,7 @@ main을 기본 브랜치로 사용해도 큰 차이는 없지만, `git push orig
 
 <br>
 
-<center><img src="../../images/2021-07-13-About_Setting_Git_Master_Branch_3.change_settings.jpg
+<center><img src="../../images/2021-07-13-About_Setting_Git_Master_Branch_3.change_settings.JPG
 "></center>
 
 <br>
@@ -47,7 +47,7 @@ settings를 클릭해서 이동하면 아래와 같이 기본 브랜치 이름�
 
 <br>
 
-<center><img src="../../images/2021-07-13-About_Setting_Git_Master_Branch_4.change_settings.jpg
+<center><img src="../../images/2021-07-13-About_Setting_Git_Master_Branch_4.change_settings.JPG
 "></center>
 
 <br>
@@ -56,5 +56,5 @@ settings를 클릭해서 이동하면 아래와 같이 기본 브랜치 이름�
 
 <br>
 
-<center><img src="../../images/2021-07-13-About_Setting_Git_Master_Branch_6.tmp_repository.jpg
+<center><img src="../../images/2021-07-13-About_Setting_Git_Master_Branch_6.tmp_repository.JPG
 "></center>
