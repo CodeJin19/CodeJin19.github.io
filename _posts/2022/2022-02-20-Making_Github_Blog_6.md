@@ -63,6 +63,12 @@ Jekyll 4.2.1   Please append `--trace` to the `serve` command
 
 <br>
 
+```
+...  in `require`: cannot load such file -- webrick (LoadError)
+```
+
+<br>
+
 하지만 webrick load error는 여전히 남아있엇고 구글에 webrick 이슈를 검색했다.
 
 <br>
