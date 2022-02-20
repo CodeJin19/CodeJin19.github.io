@@ -2,6 +2,7 @@
     - JAVA
     - network
 - 블로그
+    - 지킬 블로그 다시 만들기2 <- update
     - 로컬 환경 이슈 (크램다운, https://github.com/jekyll/jekyll-help/issues/243)
     - 이미지 이슈
 - 백준
