@@ -1,16 +1,19 @@
 - 공부거리
-    - JAVA
-    - network
+  - JAVA
+  - network
 - 블로그
-    - 지킬 블로그 다시 만들기2 <- update
-    - 로컬 환경 이슈 (크램다운, https://github.com/jekyll/jekyll-help/issues/243)
-    - 이미지 이슈
-    - 블로그 포스트 구글 등록 이슈 ([참고](https://www.betterweb.or.kr/blog/%EC%84%9C%EC%B9%98-%EC%BD%98%EC%86%94-%EC%9D%B4%EC%95%BC%EA%B8%B0-6-%EA%B2%80%EC%83%89%EC%97%90-%EB%82%98%EC%98%A4%EC%A7%80-%EC%95%8A%EC%95%84%EC%9A%94/))
+  - 지킬 블로그 다시 만들기2 <- update
+  - 로컬 환경 이슈 (크램다운, https://github.com/jekyll/jekyll-help/issues/243)
+  - 이미지 이슈
+  - 블로그 포스트 구글 등록 이슈 ([참고](https://www.betterweb.or.kr/blog/%EC%84%9C%EC%B9%98-%EC%BD%98%EC%86%94-%EC%9D%B4%EC%95%BC%EA%B8%B0-6-%EA%B2%80%EC%83%89%EC%97%90-%EB%82%98%EC%98%A4%EC%A7%80-%EC%95%8A%EC%95%84%EC%9A%94/))
 - 백준
-    - 백준 코테 오답노트
-    - 좋은 문제 풀이
-- 개발 한경
-    - VS Code
-    - git
+  - 백준 코테 오답노트
+  - 좋은 문제 풀이
+- 개발 한경 & IDE
+  - VS Code
+  - git
 - 취업
-    - 취준
+  - 취준
+- 개발자
+  - 소통
+  - 운영과 개발
