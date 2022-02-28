@@ -7,7 +7,7 @@ tags:
   - github_blog
   - jekyll
 date: 2020-08-13 17:15:37 +0900
-last_modified_at: 2020-09-02 15:19:52 +0900
+last_modified_at: 2022-02-28 14:30:52 +0900
 ---
 
 # 지킬로 깃헙 블로그 만들기
@@ -55,6 +55,32 @@ cmd창은 다음과 같이 `win + r`로 <실행>창을 켜서 `cmd`를 입력하
 <br>
 
 명령프롬프트에 `ruby -v` 명령어로 설치된 루비의 버전을 확인할 수 있다.
+
+<br>
+
+## WEBrick 추가 설치
+
+WEBrick은 간단한 HTTP 웹 서버를 제공하는 Ruby 라이브러리인데 ([참조](https://en.wikipedia.org/wiki/WEBrick)), ruby 3.0부터 기본으로 설치되는 gem에서 빠졌기 때문에, 수동으로 추가 설치가 필요하다.
+
+WEBrick은 아래 명령어로 설치할 수 있다.
+
+<br>
+
+```
+bundle add webrick
+```
+
+<br>
+
+![Install_WEBrick](/images/2022-02-20-Making_Github_Blog_6.install_WEBrick.PNG)
+
+<br>
+
+위 이미지와 같이 설치 후 아래를 진행하면 된다.
+
+<br>
+
+[WEBrick 이슈 관련 포스트](https://codejin19.github.io/blog/Making_Github_Blog_6/)
 
 <br>
 
