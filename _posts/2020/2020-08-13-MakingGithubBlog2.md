@@ -7,7 +7,7 @@ tags:
   - github_blog
   - jekyll
 date: 2020-08-13 17:15:37 +0900
-last_modified_at: 2022-06-04 14:33:45 +0900
+last_modified_at: 2022-06-04 14:43:29 +0900
 ---
 
 # 지킬로 깃헙 블로그 만들기
@@ -44,13 +44,13 @@ last_modified_at: 2022-06-04 14:33:45 +0900
 
 <br>
 
-![run](../../images/2020/2020-08-13-Making_Github_Blog_2_1.run.jpg)
+![run](/images/2020/2020-08-13-Making_Github_Blog_2_1.run.jpg)
 
 <br>
 
 cmd창은 다음과 같이 `win + r`로 <실행>창을 켜서 `cmd`를 입력하면 명령 프롬프트(cmd창)를 열 수 있다.
 
-![cmd_ruby_-v](../../images/2020/2020-08-13-Making_Github_Blog_2_2.cmd_ruby_-v.jpg)
+![cmd_ruby_-v](/images/2020/2020-08-13-Making_Github_Blog_2_2.cmd_ruby_-v.jpg)
 
 <br>
 
@@ -105,7 +105,7 @@ bundle exec jekyll serve
 
 <br>
 
-![cmd_mkdir_blogSample](../../images/2020-08-13-Making_Github_Blog_2_4.cmd_mkdir_blogSample.jpg)
+![cmd_mkdir_blogSample](/images/2020/2020-08-13-Making_Github_Blog_2_4.cmd_mkdir_blogSample.jpg)
 
 <br>
 
@@ -129,7 +129,7 @@ blogSample 디렉토리를 만든 후, `cd blogSample` 명령어로 현재 위�
 
 <br>
 
-![window_blogSample](../../images/2020-08-13-Making_Github_Blog_2_5.window_blogSample.jpg)
+![window_blogSample](/images/2020/2020-08-13-Making_Github_Blog_2_5.window_blogSample.jpg)
 
 <br>
 
@@ -150,7 +150,7 @@ bundle exec jekyll serve
 
 <br>
 
-![cmd_gem_install](../../images/2020-08-13-Making_Github_Blog_2_3.cmd_gem_install.jpg)
+![cmd_gem_install](/images/2020/2020-08-13-Making_Github_Blog_2_3.cmd_gem_install.jpg)
 
 <br>
 
@@ -164,7 +164,7 @@ gem은 처음에 설치한 루비라고 생각하면 편하다.
 
 <br>
 
-![cmd_jekyll_new_myblog](../../images/2020-08-13-Making_Github_Blog_2_6.cmd_jekyll_new_myblog.jpg)
+![cmd_jekyll_new_myblog](/images/2020/2020-08-13-Making_Github_Blog_2_6.cmd_jekyll_new_myblog.jpg)
 
 <br>
 
@@ -174,13 +174,13 @@ jekyll과 bundler를 설치했다면, `jekyll` 명령어를 사용할 수 있다
 
 지킬은 myblog라는 이름의 블로그를 만들고 이를 현재 위치 밑에 myblog라는 하위 디렉토리에 둔다.
 
-![cmd_dir](../../images/2020-08-13-Making_Github_Blog_2_7.cmd_dir.jpg)
+![cmd_dir](/images/2020/2020-08-13-Making_Github_Blog_2_7.cmd_dir.jpg)
 
 <br>
 
 `dir` 명령어를 통해 아까는 없었던 `myblog`라는 하위 디렉토리가 생성된 것을 확인할 수 있다.
 
-![window_dir](../../images/2020-08-13-Making_Github_Blog_2_8.window_dir.jpg)
+![window_dir](/images/2020/2020-08-13-Making_Github_Blog_2_8.window_dir.jpg)
 
 <br>
 
@@ -188,7 +188,7 @@ jekyll과 bundler를 설치했다면, `jekyll` 명령어를 사용할 수 있다
 
 <br>
 
-![cmd_bundle_exec_jekyll_serve](../../images/2020-08-13-Making_Github_Blog_2_9.cmd_bundle_exec_jekyll_serve.jpg)
+![cmd_bundle_exec_jekyll_serve](/images/2020/2020-08-13-Making_Github_Blog_2_9.cmd_bundle_exec_jekyll_serve.jpg)
 
 <br>
 
@@ -198,7 +198,7 @@ jekyll과 bundler를 설치했다면, `jekyll` 명령어를 사용할 수 있다
 
 <br>
 
-![local](../../images/2020-08-13-Making_Github_Blog_2_10.local.jpg)
+![local](/images/2020/2020-08-13-Making_Github_Blog_2_10.local.jpg)
 
 <br>
 

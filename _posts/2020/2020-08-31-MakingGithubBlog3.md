@@ -8,7 +8,7 @@ tags:
   - jekyll
   - jekyll_theme
 date: 2020-08-31 16:41:10 +0900
-last_modified_at: 2020-09-02 15:22:12 +0900
+last_modified_at: 2022-06-04 14:47:49 +0900
 ---
 
 # 깃헙 블로그에 테마 적용하기
@@ -33,7 +33,7 @@ last_modified_at: 2020-09-02 15:22:12 +0900
 
 <br>
 
-<center><img src="../../images/2020-08-31-Making_Github_Blog_3_1.so-simple-theme_repo.jpg"></center>
+![so-simple-theme_repo](/images/2020/2020-08-31-Making_Github_Blog_3_1.so-simple-theme_repo.jpg)
 
 <br>
 
@@ -53,7 +53,7 @@ gem "jekyll-theme-so-simple"
 
 <br>
 
-<center><img src="../../images/2020-08-31-Making_Github_Blog_3_2.gemfile.jpg"></center>
+![gemfile](/images/2020/2020-08-31-Making_Github_Blog_3_2.gemfile.jpg)
 
 <br>
 
@@ -69,7 +69,7 @@ theme: jekyll-theme-so-simple
 
 <br>
 
-<center><img src="../../images/2020-08-31-Making_Github_Blog_3_3._config.yml_after.jpg"></center>
+![config.yml_after](/images/2020/2020-08-31-Making_Github_Blog_3_3.config.yml_after.jpg)
 
 <br>
 
@@ -87,7 +87,7 @@ bundle install
 
 <br>
 
-<center><img src="../../images/2020-08-31-Making_Github_Blog_3_4.cmd_bundle_install.jpg"></center>
+![cmd_bundle_install](/images/2020/2020-08-31-Making_Github_Blog_3_4.cmd_bundle_install.jpg)
 
 <br>
 
@@ -95,11 +95,11 @@ bundle install
 
 <br>
 
-<center><img src="../../images/2020-08-31-Making_Github_Blog_3_5.cmd_bundle_exec_jekyll_serve.jpg"></center>
+![cmd_bundle_exec_jekyll_serve](/images/2020/2020-08-31-Making_Github_Blog_3_5.cmd_bundle_exec_jekyll_serve.jpg)
 
 <br>
 
-<center><img src="../../images/2020-08-31-Making_Github_Blog_3_6.local.jpg"></center>
+![local](/images/2020/2020-08-31-Making_Github_Blog_3_6.local.jpg)
 
 <br>
 
@@ -129,7 +129,7 @@ so-simple-theme-master 디렉토리에서 `_data`, `_include`, `_layouts`, `_sas
 
 <br>
 
-<center><img src="../../images/2020-08-31-Making_Github_Blog_3_7.local.jpg"></center>
+![local](/images/2020/2020-08-31-Making_Github_Blog_3_7.local.jpg)
 
 <br>
 

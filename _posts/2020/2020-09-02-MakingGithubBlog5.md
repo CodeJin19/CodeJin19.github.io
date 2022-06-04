@@ -9,7 +9,7 @@ tags:
   - google
   - google_search_console
 date: 2020-09-02 16:46:40 +0900
-last_modified_at: 2020-09-02 16:46:40 +0900
+last_modified_at: 2022-06-04 14:54:41 +0900
 ---
 
 # 구글에 블로그 등록하기
@@ -34,11 +34,11 @@ last_modified_at: 2020-09-02 16:46:40 +0900
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_1.google_search_console.jpg"></center>
+![google_search_console](/images/2020/2020-09-01-Making_Github_Blog_5_1.google_search_console.jpg)
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_2.google_search_console.jpg"></center>
+![google_search_console](/images/2020/2020-09-01-Making_Github_Blog_5_2.google_search_console.jpg)
 
 <br>
 
@@ -48,7 +48,7 @@ last_modified_at: 2020-09-02 16:46:40 +0900
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_3.google_search_console.jpg"></center>
+![google_search_console](/images/2020/2020-09-01-Making_Github_Blog_5_3.google_search_console.jpg)
 
 <br>
 
@@ -56,7 +56,7 @@ last_modified_at: 2020-09-02 16:46:40 +0900
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_4.google_search_console_html.jpg"></center>
+![google_search_console_html](/images/2020/2020-09-01-Making_Github_Blog_5_4.google_search_console_html.jpg)
 
 <br>
 
@@ -68,7 +68,7 @@ html파일을 다운받는다.
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_5.github_repository.jpg"></center>
+![github_repository](/images/2020/2020-09-01-Making_Github_Blog_5_5.github_repository.jpg)
 
 <br>
 
@@ -76,7 +76,7 @@ html파일을 다운받는다.
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_6.github_repository_upload_file.jpg"></center>
+![github_repository_upload_file](/images/2020/2020-09-01-Making_Github_Blog_5_6.github_repository_upload_file.jpg)
 
 <br>
 
@@ -148,7 +148,7 @@ Sitemap: http://codejin19.github.io/sitemap.xml
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_5_7.google_search_console_sitemap.jpg"></center>
+![google_search_console_sitemap](/images/2020/2020-09-01-Making_Github_Blog_5_7.google_search_console_sitemap.jpg)
 
 <br>
 

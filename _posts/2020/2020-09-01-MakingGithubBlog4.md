@@ -7,7 +7,7 @@ tags:
   - github_blog
   - jekyll
 date: 2020-09-01 16:55:59 +0900
-last_modified_at: 2020-09-01 16:55:59 +0900
+last_modified_at: 2022-06-04 14:51:33 +0900
 ---
 
 # 블로그 온라인에 띄우기
@@ -28,7 +28,7 @@ last_modified_at: 2020-09-01 16:55:59 +0900
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_4_1.github.jpg"></center>
+![github](/images/2020/2020-09-01-Making_Github_Blog_4_1.github.jpg)
 
 <br>
 
@@ -36,7 +36,7 @@ last_modified_at: 2020-09-01 16:55:59 +0900
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_4_2.github_making_repository.jpg"></center>
+![github_making_repository](/images/2020/2020-09-01-Making_Github_Blog_4_2.github_making_repository.jpg)
 
 <br>
 
@@ -46,7 +46,7 @@ last_modified_at: 2020-09-01 16:55:59 +0900
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_4_3.github_making_repository_renamed.jpg"></center>
+![github_making_repository_renamed](/images/2020/2020-09-01-Making_Github_Blog_4_3.github_making_repository_renamed.jpg)
 
 <br>
 
@@ -54,7 +54,7 @@ last_modified_at: 2020-09-01 16:55:59 +0900
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_4_4.repository.jpg"></center>
+![repository](/images/2020/2020-09-01-Making_Github_Blog_4_4.repository.jpg)
 
 <br>
 
@@ -87,15 +87,15 @@ git push origin master
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_4_5.cmd.jpg"></center>
+![cmd](/images/2020/2020-09-01-Making_Github_Blog_4_5.cmd.jpg)
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_4_6.cmd_git_commit.jpg"></center>
+![cmd_git_commit](/images/2020/2020-09-01-Making_Github_Blog_4_6.cmd_git_commit.jpg)
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_4_7.cmd_git_push.jpg"></center>
+![cmd_git_push](/images/2020/2020-09-01-Making_Github_Blog_4_7.cmd_git_push.jpg)
 
 <br>
 
@@ -103,7 +103,7 @@ git push origin master
 
 <br>
 
-<center><img src="../../images/2020-09-01-Making_Github_Blog_4_8.repository.jpg"></center>
+![repository](/images/2020/2020-09-01-Making_Github_Blog_4_8.repository.jpg)
 
 <br>
 

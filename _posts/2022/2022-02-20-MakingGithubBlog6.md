@@ -8,7 +8,7 @@ tags:
   - jekyll
   - webrick
 date: 2022-02-20 17:30:26 +0900
-last_modified_at: 2022-02-28 15:25:40 +0900
+last_modified_at: 2022-06-04 15:08:32 +0900
 ---
 
 # 새로운 이슈
@@ -45,7 +45,7 @@ last_modified_at: 2022-02-28 15:25:40 +0900
 
 <br>
 
-![WEBrick_error](/images/2022-02-20-Making_Github_Blog_6.WEBrick_error.PNG)
+![WEBrick_error](/images/2022/2022-02-20-Making_Github_Blog_6.WEBrick_error.PNG)
 
 <br>
 
@@ -64,7 +64,7 @@ Jekyll 4.2.1   Please append `--trace` to the `serve` command
 
 <br>
 
-![With_tace_option](/images/2022-02-20-Making_Github_Blog_6.with_tace_option.PNG)
+![With_tace_option](/images/2022/2022-02-20-Making_Github_Blog_6.with_tace_option.PNG)
 
 <br>
 
@@ -88,7 +88,7 @@ WEBrick은 간단한 HTTP 웹 서버를 제공하는 Ruby 라이브러리인데 
 
 <br>
 
-![Install_WEBrick](/images/2022-02-20-Making_Github_Blog_6.install_WEBrick.PNG)
+![Install_WEBrick](/images/2022/2022-02-20-Making_Github_Blog_6.install_WEBrick.PNG)
 
 <br>
 
@@ -96,7 +96,7 @@ WEBrick은 간단한 HTTP 웹 서버를 제공하는 Ruby 라이브러리인데 
 
 <br>
 
-![works_well](/images/2022-02-20-Making_Github_Blog_6.works_well.PNG)
+![works_well](/images/2022/2022-02-20-Making_Github_Blog_6.works_well.PNG)
 
 <br>
 
