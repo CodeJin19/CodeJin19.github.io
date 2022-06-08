@@ -10,6 +10,7 @@
   - git 파일 명 변환 후 파일 선택 커밋시 꼬이는 이슈
   - git과 svn 비교
   - yml 파일
+  - git issue와 close 처리
 
 <br>
 
@@ -26,7 +27,7 @@
 
 <br>
 
-- 개발 한경 & IDE
+- 개발 환경 & IDE
   - VS Code
   - git
 
