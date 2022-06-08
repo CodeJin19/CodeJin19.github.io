@@ -1,5 +1,5 @@
 ---
-title: "이미지 엑박 이슈"
+title: '이미지 엑박 이슈'
 categories:
   - blog
 tags:
@@ -8,7 +8,7 @@ tags:
   - jekyll
   - kramdown
 date: 2022-05-15 15:37:52 +0900
-last_modified_at: 2022-05-15 15:37:52 +0900
+last_modified_at: 2022-06-08 23:33:09 +0900
 ---
 
 # 이슈에 이슈에 이슈에...
@@ -27,15 +27,12 @@ last_modified_at: 2022-05-15 15:37:52 +0900
 
 1. 일부 포스트에서 이미지가 보이지 않는 이슈
 
-<br>
+2. 로컬 환경에서 Jekyll을 활용하여 블로그 생성 불가 이슈 ([포스트](https://codejin19.github.io/blog/MakingGithubBlog6/))
 
-2. 로컬 환경에서 Jekyll을 활용하여 블로그 생성 불가 이슈 ([포스트]())
-    - WEBrick 미설치로 인한 ruby 실행 불가
+   - WEBrick 미설치로 인한 ruby 실행 불가
 
-<br>
-
-3. 로컬 환경에서 Jekyll로 블로그 실행 시 에러 발생 이슈 ([포스트]())
-    - kramdown 버전 충돌
+3. 로컬 환경에서 Jekyll로 블로그 실행 시 에러 발생 이슈 ([포스트](https://codejin19.github.io/blog/MakingGithubBlog7/))
+   - kramdown 버전 충돌
 
 <br>
 
@@ -72,7 +69,7 @@ last_modified_at: 2022-05-15 15:37:52 +0900
 <br>
 
 ```html
-<center><img src="./img/some_img.jpg"></center>
+<center><img src="./img/some_img.jpg" /></center>
 ```
 
 <br>
