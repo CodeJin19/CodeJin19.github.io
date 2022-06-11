@@ -26,11 +26,8 @@ last_modified_at: 2022-06-08 23:33:09 +0900
 # 상황 정리
 
 1. 일부 포스트에서 이미지가 보이지 않는 이슈
-
 2. 로컬 환경에서 Jekyll을 활용하여 블로그 생성 불가 이슈 ([포스트](https://codejin19.github.io/blog/MakingGithubBlog6/))
-
    - WEBrick 미설치로 인한 ruby 실행 불가
-
 3. 로컬 환경에서 Jekyll로 블로그 실행 시 에러 발생 이슈 ([포스트](https://codejin19.github.io/blog/MakingGithubBlog7/))
    - kramdown 버전 충돌
 
