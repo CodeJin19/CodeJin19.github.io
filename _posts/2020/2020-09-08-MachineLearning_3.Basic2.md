@@ -21,7 +21,7 @@ last_modified_at: 2022-06-04 14:57:57 +0900
 
 <br>
 
-![perceptron](/images/2020/2020-09-08-MachineLearning_3.Basic2_1.perceptron.jpg)
+![perceptron](/images/2020/2020-09-08-MachineLearning_3.Basic2_1.Perceptron.jpg)
 
 <br>
 
@@ -54,7 +54,7 @@ and 게이트의 진리표는 아래와 같이 $$x_1$$과 $$x_2$$가 모두 1인
 
 <br>
 
-![truth_table](/images/2020/2020-09-08-MachineLearning_3.Basic2_2.truth_table.jpg)
+![truth_table](/images/2020/2020-09-08-MachineLearning_3.Basic2_2.TruthTable.jpg)
 
 <br>
 

@@ -28,7 +28,7 @@ last_modified_at: 2022-06-04 14:51:33 +0900
 
 <br>
 
-![github](/images/2020/2020-09-01-Making_Github_Blog_4_1.github.jpg)
+![github](/images/2020/2020-09-01-MakingGithubBlog4_1.Github.jpg)
 
 <br>
 
@@ -36,7 +36,7 @@ last_modified_at: 2022-06-04 14:51:33 +0900
 
 <br>
 
-![github_making_repository](/images/2020/2020-09-01-Making_Github_Blog_4_2.github_making_repository.jpg)
+![github_making_repository](/images/2020/2020-09-01-MakingGithubBlog4_2.GithubMakingRepository.jpg)
 
 <br>
 
@@ -46,7 +46,7 @@ last_modified_at: 2022-06-04 14:51:33 +0900
 
 <br>
 
-![github_making_repository_renamed](/images/2020/2020-09-01-Making_Github_Blog_4_3.github_making_repository_renamed.jpg)
+![github_making_repository_renamed](/images/2020/2020-09-01-MakingGithubBlog4_3.GithubMakingRepositoryRenamed.jpg)
 
 <br>
 
@@ -54,7 +54,7 @@ last_modified_at: 2022-06-04 14:51:33 +0900
 
 <br>
 
-![repository](/images/2020/2020-09-01-Making_Github_Blog_4_4.repository.jpg)
+![repository](/images/2020/2020-09-01-MakingGithubBlog4_4.Repository.jpg)
 
 <br>
 
@@ -87,15 +87,15 @@ git push origin master
 
 <br>
 
-![cmd](/images/2020/2020-09-01-Making_Github_Blog_4_5.cmd.jpg)
+![cmd](/images/2020/2020-09-01-MakingGithubBlog4_5.Cmd.jpg)
 
 <br>
 
-![cmd_git_commit](/images/2020/2020-09-01-Making_Github_Blog_4_6.cmd_git_commit.jpg)
+![cmd_git_commit](/images/2020/2020-09-01-MakingGithubBlog4_6.CmdGitCommit.jpg)
 
 <br>
 
-![cmd_git_push](/images/2020/2020-09-01-Making_Github_Blog_4_7.cmd_git_push.jpg)
+![cmd_git_push](/images/2020/2020-09-01-MakingGithubBlog4_7.CmdGitPush.jpg)
 
 <br>
 
@@ -103,7 +103,7 @@ git push origin master
 
 <br>
 
-![repository](/images/2020/2020-09-01-Making_Github_Blog_4_8.repository.jpg)
+![repository](/images/2020/2020-09-01-MakingGithubBlog4_8.Repository.jpg)
 
 <br>
 

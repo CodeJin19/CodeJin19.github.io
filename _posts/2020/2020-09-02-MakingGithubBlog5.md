@@ -34,11 +34,11 @@ last_modified_at: 2022-06-04 14:54:41 +0900
 
 <br>
 
-![google_search_console](/images/2020/2020-09-01-Making_Github_Blog_5_1.google_search_console.jpg)
+![google_search_console](/images/2020/2020-09-01-MakingGithubBlog5_1.GoogleSearchConsole.jpg)
 
 <br>
 
-![google_search_console](/images/2020/2020-09-01-Making_Github_Blog_5_2.google_search_console.jpg)
+![google_search_console](/images/2020/2020-09-01-MakingGithubBlog5_2.GoogleSearchConsole.jpg)
 
 <br>
 
@@ -48,7 +48,7 @@ last_modified_at: 2022-06-04 14:54:41 +0900
 
 <br>
 
-![google_search_console](/images/2020/2020-09-01-Making_Github_Blog_5_3.google_search_console.jpg)
+![google_search_console](/images/2020/2020-09-01-MakingGithubBlog5_3.GoogleSearchConsole.jpg)
 
 <br>
 
@@ -56,7 +56,7 @@ last_modified_at: 2022-06-04 14:54:41 +0900
 
 <br>
 
-![google_search_console_html](/images/2020/2020-09-01-Making_Github_Blog_5_4.google_search_console_html.jpg)
+![google_search_console_html](/images/2020/2020-09-01-MakingGithubBlog5_4.GoogleSearchConsoleHtml.jpg)
 
 <br>
 
@@ -68,7 +68,7 @@ html파일을 다운받는다.
 
 <br>
 
-![github_repository](/images/2020/2020-09-01-Making_Github_Blog_5_5.github_repository.jpg)
+![github_repository](/images/2020/2020-09-01-MakingGithubBlog5_5.GithubRepository.jpg)
 
 <br>
 
@@ -76,7 +76,7 @@ html파일을 다운받는다.
 
 <br>
 
-![github_repository_upload_file](/images/2020/2020-09-01-Making_Github_Blog_5_6.github_repository_upload_file.jpg)
+![github_repository_upload_file](/images/2020/2020-09-01-MakingGithubBlog5_6.GithubRepositoryUploadFile.jpg)
 
 <br>
 
@@ -148,7 +148,7 @@ Sitemap: http://codejin19.github.io/sitemap.xml
 
 <br>
 
-![google_search_console_sitemap](/images/2020/2020-09-01-Making_Github_Blog_5_7.google_search_console_sitemap.jpg)
+![google_search_console_sitemap](/images/2020/2020-09-01-MakingGithubBlog5_7.GoogleSearchConsoleSitemap.jpg)
 
 <br>
 
