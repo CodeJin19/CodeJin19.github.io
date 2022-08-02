@@ -8,7 +8,7 @@ tags:
   - main
   - branch
 date: 2021-07-13 17:35:13 +0900
-last_modified_at: 2022-06-04 15:03:02 +0900
+last_modified_at: 2022-08-02 22:37:04 +0900
 ---
 
 # main branch?
@@ -29,8 +29,7 @@ main을 기본 브랜치로 사용해도 큰 차이는 없지만, `git push orig
 
 <br>
 
-![tmp_repository](/images/2021/2021-07-13-About_Setting_Git_Master_Branch_2.tmp_repository.JPG
-)
+![tmp_repository](/images/2021/2021-07-13-AboutSettingGitMasterBranch_2.TmpRepository.JPG)
 
 <br>
 
@@ -38,8 +37,7 @@ main을 기본 브랜치로 사용해도 큰 차이는 없지만, `git push orig
 
 <br>
 
-![change_settings](/images/2021/2021-07-13-About_Setting_Git_Master_Branch_3.change_settings.JPG
-)
+![change_settings](/images/2021/2021-07-13-AboutSettingGitMasterBranch_3.ChangeSettings.JPG)
 
 <br>
 
@@ -47,8 +45,7 @@ settings를 클릭해서 이동하면 아래와 같이 기본 브랜치 이름�
 
 <br>
 
-![change_settings](/images/2021/2021-07-13-About_Setting_Git_Master_Branch_4.change_settings.JPG
-)
+![change_settings](/images/2021/2021-07-13-AboutSettingGitMasterBranch_4.ChangeSettings.JPG)
 
 <br>
 
@@ -56,5 +53,4 @@ settings를 클릭해서 이동하면 아래와 같이 기본 브랜치 이름�
 
 <br>
 
-![tmp_repository](/images/2021/2021-07-13-About_Setting_Git_Master_Branch_6.tmp_repository.JPG
-)
+![tmp_repository](/images/2021/2021-07-13-AboutSettingGitMasterBranch_6.TmpRepository.JPG)
