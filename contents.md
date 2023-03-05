@@ -11,6 +11,7 @@
   - git과 svn 비교
   - yml 파일
   - git issue와 close 처리
+  - git fork한 repository와 원본 repository sync 맞추기 ([github docs](https://docs.github.com/ko/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork))
 
 <br>
 
