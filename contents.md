@@ -41,3 +41,8 @@
 
 - 개발자
   - 운영과 개발
+
+<br>
+
+- side project
+  - wow translater
