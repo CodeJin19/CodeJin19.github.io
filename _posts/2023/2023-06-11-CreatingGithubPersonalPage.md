@@ -5,12 +5,16 @@ categories:
 tags:
   - github
 date: 2023-06-11 22:41:00 +0900
-last_modified_at: 2023-07-24 23:35:04 +0900
+last_modified_at: 2023-08-02 12:08:16 +0900
 ---
 
 # 깃헙 개인 페이지
 
 언젠가부터 몇몇 깃헙 계정의 메인 페이지에 자기 소개 페이지가 보였다.
+
+잘 꾸미면 좋은 포트폴리오가 될 수 있을 것 같았다. (실제로 이미 그렇게 하는 것 같다)
+
+<br>
 
 오늘은 이 페이지를 만드는 방법을 알아보고자 한다.
 
@@ -24,10 +28,18 @@ last_modified_at: 2023-07-24 23:35:04 +0900
 
 <br>
 
-레포지토리 이름을 본인 계정과 같은 이름으로 생성하면, 아래 이미지와 같은 안내 메세지가 나온다.
+레포지토리 이름을 본인 계정과 같은 이름으로 생성하면, 아래 이미지처럼 안내 메세지가 나온다.
 
-안내 메시지에 나온대로 Public, Add a README file (아래 이미지에서는 체크를 하지 않은 상태다) 두 곳을 체크하고 레포지토리를 생성하면 된다.
+안내 메시지에 나온대로 Public, Add a README file 두 옵션을 설정하고 레포지토리를 생성하면 된다.
 
 <br>
 
 ![CreatingGithubProfilePage](/images/2023/2023-06-11-CreatingGithubPersonalPage_2.CreatingGithubProfilePage.JPG)
+
+<br>
+
+깃헙 개인 페이지가 생성된 모습
+
+<br>
+
+![GithubProfilePageCreated](/images/2023/2023-06-11-CreatingGithubPersonalPage_3.GithubProfilePageCreated.JPG)
