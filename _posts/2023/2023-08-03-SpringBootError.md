@@ -86,6 +86,8 @@ A problem occurred configuring root project 'hello_spring'.
 
 ![CmdCheckJavaVersion](/images/2023/2023-08-03-SpringBootError_2.CmdCheckJavaVersion.JPG)
 
+<br>
+
 # 해결책
 
 결국 JAVA 버전을 바꾼지 3달 만에 다시 재설치를 해야한다... ㅠㅠ
