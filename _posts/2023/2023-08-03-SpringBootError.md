@@ -4,6 +4,7 @@ categories:
   - spring
 tags:
   - spring
+  - spring_boot
   - error
   - setup
 date: 2023-08-03 23:36:10 +0900
